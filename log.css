@@ -1,0 +1,49 @@
+﻿body {
+    margin: 0 auto;
+}
+
+#log {
+    width: 70%;
+    padding: 5%;
+    margin: auto;
+    color: white;
+    display: block;
+    margin: 10%;
+}
+.login {
+    width: 70%;
+    padding: 1%;
+    margin-left: 15% auto;
+    border-radius: 2%;
+    border: 10px;
+    float: none;
+}
+    .login:hover {
+        background-color: aliceblue;
+        text-shadow: 2px 2px black;
+    }
+.ah{
+   color:blue;
+   text-shadow:1px 1px white;
+   float:right;
+}
+
+.but {
+    background-color: red;
+    width: 10%;
+    padding: 1%;
+    margin-left: 15% auto;
+    border-radius: 2%;
+    border: 1px solid aliceblue;
+    float: right;
+    margin-right: 17%;
+    color: white;
+    transition:all 0.3s;
+}
+
+    .but:hover {
+        border-radius: 30%;
+        border: 2px solid black;
+        text-shadow: 2px 2px gray;
+    }
+

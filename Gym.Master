@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Gym.master.cs" Inherits="MajdGym.Gym" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Master.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul id="headul">
+                <li class="headli"><a class="heada" href="Home.aspx"> Home </a></li>
+                <li class="headli"><a class="heada" href="contact.aspx"> Contact Us </a></li>
+                <li class="headli"><a class="heada" href="Login.aspx"> Login </a></li>
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:Image ID="Image1" runat="server" ImageUrl="img/back.png" Width="100%" Height="150px"></asp:Image>
+        </div>
+    </form>
+</body>
+</html>

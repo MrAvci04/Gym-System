@@ -1,0 +1,40 @@
+﻿body {
+    margin:0auto;
+}
+.login {
+    width: 70%;
+    padding: 1%;
+    margin-left: 15% auto;
+    border-radius: 10px;
+    border: 10px;
+    float: none;
+}
+
+    .login:hover {
+        background-color: aliceblue;
+        text-shadow: 2px 2px black;
+    }
+
+    h1{
+        direction:ltr;
+        color:white;
+        text-shadow:2px 2px gray;
+    }
+.but {
+    background-color: red;
+    width: 5%;
+    padding: 1%;
+    margin-left: 0 auto;
+    border-radius: 2%;
+    border: 1px solid aliceblue;
+    float: right;
+    margin-right: 5%;
+    color: white;
+    transition: all 0.3s;
+}
+
+    .but:hover {
+        border-radius: 30%;
+        border: 2px solid black;
+        text-shadow: 2px 2px gray;
+    }
